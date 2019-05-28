@@ -17,6 +17,7 @@ a *= d
 a /= e
 print("a = ", a)
 
+# and or not 布尔运算符
 flag1 = 3 > 2
 flag2 = 2 < 1
 flag3 = flag1 and flag2
@@ -27,5 +28,5 @@ print("flag2 = ", flag2)
 print("flag3 = ", flag3)
 print("flag4 = ", flag4)
 print("flag5 = ", flag5)
-print(flag1 is True)
-print(flag2 is not False)
+print(flag1 != True)
+print(flag2 != False)
