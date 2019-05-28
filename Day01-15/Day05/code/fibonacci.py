@@ -10,5 +10,6 @@ Date: 2018-03-02
 a = 0
 b = 1
 for _ in range(20):
+    # 解构
     (a, b) = (b, a + b)
     print(a, end=' ')
