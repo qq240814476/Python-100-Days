@@ -16,3 +16,21 @@ def factorial(n):
 
 
 print(factorial(7) / factorial(3))
+print('''aaa
+bbb
+ccc''')
+
+# r不转义
+n = 123
+f = 456.789
+s1 = 'Hello, world'
+s2 = 'Hello, \'Adam\''
+s3 = r'Hello, \n'
+s4 = r'''Hello,
+Lisa!'''
+print(s3)
+print('growth rate: %d %%' % 7)
+s1 = 72
+s2 = 85
+r = (s2-s1) / s1
+print('%.1f' % r)
