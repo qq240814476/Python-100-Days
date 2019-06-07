@@ -8,6 +8,16 @@ Author: 骆昊
 Date: 2018-03-02
 """
 
+# 斐波那切数列
+a = 1
+b = 1
+c = 0
+for n in range(8):
+    c = a + b
+    a = b
+    b = c
+print(c)
+
 for x in range(0, 20):
     for y in range(0, 33):
         z = 100 - x - y
